@@ -10,8 +10,13 @@
     "type": "git",
     "url": "git://github.com/danypype/mquery.git"
   },
+  "main": "lib/mquery",
+  "scripts": {
+    "test": "mocha"
+  },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^1.18.2"
+    "mocha": "^1.18.2",
+    "jsdoc": "^3.3.0-alpha5"
   }
 }
